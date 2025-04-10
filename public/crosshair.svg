@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="32" height="32" viewBox="0 0 32 32" xmlns="http://www.w3.org/2000/svg">
+  <!-- Outer ring -->
+  <circle cx="16" cy="16" r="15" stroke="#808080" stroke-width="1" fill="none" opacity="0.3"/>
+  
+  <!-- Main crosshair lines -->
+  <line x1="16" y1="6" x2="16" y2="12" stroke="#808080" stroke-width="1.5"/>
+  <line x1="16" y1="20" x2="16" y2="26" stroke="#808080" stroke-width="1.5"/>
+  <line x1="6" y1="16" x2="12" y2="16" stroke="#808080" stroke-width="1.5"/>
+  <line x1="20" y1="16" x2="26" y2="16" stroke="#808080" stroke-width="1.5"/>
+  
+  <!-- Inner circle -->
+  <circle cx="16" cy="16" r="4" stroke="#808080" stroke-width="1" fill="none"/>
+  
+  <!-- Center dot -->
+  <circle cx="16" cy="16" r="1" fill="#808080"/>
+  
+  <!-- Corner marks -->
+  <path d="M7,7 L7,10 M7,7 L10,7" stroke="#808080" stroke-width="1" opacity="0.5"/>
+  <path d="M25,7 L25,10 M25,7 L22,7" stroke="#808080" stroke-width="1" opacity="0.5"/>
+  <path d="M7,25 L7,22 M7,25 L10,25" stroke="#808080" stroke-width="1" opacity="0.5"/>
+  <path d="M25,25 L25,22 M25,25 L22,25" stroke="#808080" stroke-width="1" opacity="0.5"/>
+</svg> 
