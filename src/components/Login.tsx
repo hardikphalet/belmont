@@ -34,10 +34,6 @@ const Title = styled.h1`
   letter-spacing: 2px;
 `;
 
-const Form = styled.form`
-  width: 100%;
-`;
-
 const Input = styled.input`
   width: 100%;
   padding: 0.8rem;
