@@ -7,5 +7,6 @@ export default defineConfig({
   server: {
     port: 10921,
     host: true
-  }
+  },
+  base: '/belmont/'
 })
